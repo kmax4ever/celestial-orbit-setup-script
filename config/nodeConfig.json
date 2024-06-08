@@ -45,7 +45,7 @@
       "tendermint-rpc": "rpc.celestia-mocha.com",
       "eth-rpc": "",
       "namespace-id": "000008e5f679bf7116cb",
-      "auth-token": "",
+      "auth-token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBbGxvdyI6WyJwdWJsaWMiLCJyZWFkIiwid3JpdGUiLCJhZG1pbiJdfQ.W0iUcefnWT3oaCSOpUEusEweWLTwEiTS4z0h4SpwHBI",
       "is-poster": true,
       "gas-price": 0.1,
       "event-channel-size": 100,
