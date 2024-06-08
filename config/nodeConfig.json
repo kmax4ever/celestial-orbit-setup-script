@@ -41,7 +41,7 @@
     },
     "celestia-cfg": {
       "enable": true,
-      "rpc": "http://localhost:26658",
+      "rpc": "host.docker.internal:26658",
       "tendermint-rpc": "rpc.celestia-mocha.com",
       "eth-rpc": "wss://arb-sepolia.g.alchemy.com/v2/iIzqixtgFlZV7NKMl04G1pv1QcrTfNZk",
       "namespace-id": "000008e5f679bf7116cb",
