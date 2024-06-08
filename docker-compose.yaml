@@ -92,7 +92,7 @@ services:
     user: root
     command: chmod 777 /home/user/.arbitrum
     ports:
-      - "127.0.0.1:8449:8449"
+      - "127.0.0.1:26658:26658"
     volumes:
       - "./config:/home/user/.arbitrum"
     command: --conf.file /home/user/.arbitrum/nodeConfig.json
