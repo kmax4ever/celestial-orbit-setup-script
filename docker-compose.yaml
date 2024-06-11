@@ -109,5 +109,3 @@ services:
     ports:
       - "9876:9876"
       - "9877:9877"
-extra_hosts:
-      - "host.docker.internal:host-gateway"
