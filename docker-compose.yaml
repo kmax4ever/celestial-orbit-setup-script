@@ -96,6 +96,8 @@ services:
     volumes:
       - "./config:/home/user/.arbitrum"
     command: --conf.file /home/user/.arbitrum/nodeConfig.json
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
 
   das-server:
     image: dfcelestia/nitro-node-dev:latest
