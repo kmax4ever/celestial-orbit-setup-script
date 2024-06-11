@@ -88,7 +88,7 @@ services:
   #     service: proxy
 
   nitro:
-    image: dfcelestia/nitro-node-dev:latest
+    image: ghcr.io/celestiaorg/nitro:v2.3.3
     user: root
     command: chmod 777 /home/user/.arbitrum
     ports:
